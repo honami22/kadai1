@@ -15,38 +15,70 @@ main {
     height: 130px;
     display: block;
 }
+.main-visual {
 
+}
 .flow01 {
     width: 300px;
-    height: 30px;
-    background-image: url(img/flow01.png);
-   
-    background-size: cover;
+    height: 300px;
     background-color: green;
-    
+    display: inline-block;
+    float: left;
+    margin: 0 5px;
+    margin-bottom: 50px;
 }
+.flow01-imege {
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+    background-image: url(img/flow01.png);
+    display: inline-block;
+    float: left;
+    margin:10px;
 
+}
 
 .flow02 {
-    width:300px;
-    height: 30px;
-    background-image: url(img/flow02.png);
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    display: inline-block;
+    float: left;
+    margin: 0 5px;
+    margin-bottom: 50px;
+}
+.flow02-imege {
+    width: 300px;
+    height: 150px;
     background-size: cover;
-    background-color: pink;
+    background-image: url(img/flow02.png);
+    display: inline-block;
+    float: left;
 }
 
-
 .flow03 {
-    width:300px;
-    height: 30px;
-    background-image: url(img/flow03.png);
-    background-position: bottom;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    display: inline-block;
+    float: left;
+    margin: 0 5px;
+    margin-bottom: 50px;
+}
+.flow03-imege {
+    width: 300px;
+    height: 150px;
     background-size: cover;
-    background-color: yellow;
+    background-image: url(img/flow03.png);
+    display: inline-block;
+    float: left;
+
+
+
 }
 footer {
     width: 100%;
     height:50px;
     background-color: #aaa;
-    
+
 }
